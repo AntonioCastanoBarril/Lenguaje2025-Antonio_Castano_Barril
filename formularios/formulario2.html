@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+</head>
+<body style="width: 1000px; margin: auto;">
+    
+    <h1><b>Formulario de registro al curso</b></h1>
+
+    <label for="nombre_completo">Nombre completo: (requerido)</label><br>
+    <input type="text" name="nombre_completo" id="nombre_completo"><br><br>
+
+    <label for="correo_electronico">Correo electrónico: (requerido)</label><br>
+    <input type="text" name="correo_electronico" id="correo_electronico"><br><br>
+
+    <label for="edad">Edad: </label><br>
+    <input type="number" name="edad" id="edad" style="width: 10%;"><br><br>
+
+     <label for="curso">Curso de interés: </label><br>
+    <select name="curso" id="curso">
+        <option value="curso">Selecciona un curso</option>
+        <option value="informatica_basica">Informática básica</option>
+        <option value="base_de_datos">Base de datos</option>
+        <option value="sistemas">Sistemas</option>
+        <option value="lenguaje_de_marcas">Lenguaje de marcas</option>
+        <option value="digitalizacion">Digitalización</option>
+        <option value="entornos_de_desarrollo">Entornos de desarrollo</option>
+    </select><br><br>
+
+    <label for="turno">Turno preferido: </label><br>
+    <input type="radio" id="turno" name="turno" value="mañana">Mañana <br>
+    <input type="radio" id="turno" name="turno" value="tarde">Tarde <br><br>
+   
+    <input type="checkbox" name="acepto_condiciones" id="acepto_condiciones">
+    <label for="acepto_condiciones">Acepto las condiciones del curso</label><br><br>
+
+    <label for="comentarios_adicionales">Comentarios adicionales: </label><br>
+    <textarea name="comentarios_adicionales" id="comentarios_adicionales" placeholder="Escribe aquí tus dudas o preferencias..."></textarea><br><br>
+
+    <input type="submit" value="Enviar regístro">
+
+</html>
