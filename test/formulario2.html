@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario2</title>
+</head>
+<body style="width:1000px ; margin: auto">
+    <h1>Formulario2</h1>
+    <form name="formulario" action="procesar.php" method="post"> 
+    
+    <label for="nombre_completo">Nombre completo: (requerido)</label><br>
+    <input type="text" name="nombre_completo" id="nombre_completo"><br><br>
+
+    <label for="correo_electronico">Correo electrónico: (requerido)</label><br>
+    <input type="text" name="correo_electronico" id="correo_electronico"><br><br>
+
+    <label for="edad">Edad</label><br>
+    <input type="number" name="edad" id="edad" min="18"><br><br>
+
+    <label for="curso_interes">Curso de interés:</label><br>
+    <select name="curso_interes" id="curso_interes">
+    <option value="informatica_basica">Informática básica</option>
+    <option value="matematicas">Matemáticas</option>
+    <option value="geografia_historia">Geografía e Historia</option>    
+    </select><br><br>
+    
+
+    <label for="turno">Turno preferido:</label><br>
+    <input type="radio" id="mañana" name="mañana" value="mañana"> Mañana<br>
+    <input type="radio" id="tarde" name="tarde" value="tarde"> Tarde<br><br>
+
+    <input type="checkbox" name="acepto_condiciones" id="acepto_condiciones">
+    <label for="acepto_condiciones">Acepto las condiciones del curso</label><br><br>
+
+    <label for="comentarios_adicionales">Comentarios adicionales:</label><br>
+    <textarea name="comentarios_adicionales" id="comentarios_adicionales"></textarea><br><br>
+
+    <input type="submit" value="Enviar registro">
+    </form>
+
+ </body>
+</html>
