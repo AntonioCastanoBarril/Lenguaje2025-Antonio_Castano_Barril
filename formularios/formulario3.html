@@ -22,7 +22,23 @@
     <input type="color" name="color" id="color"><br><br>
 
     <label for="cantidad">Cantidad (1 a 10): </label><br>
-    <input type="text" name="" id="">
+    <input type="range" name="cantidad" id="cantidad" min="1" max="10"><br><br>
+
+    <label for="accesorios_personales">Accesorios adicionales:</label><br>
+    <select id="accesorios_personales" name="accesorios_personales" >
+      <option value="funda">Funda protectora</option>
+      <option value="bateria">Batería adicional</option>
+      <option value="soporte">Soporte de movil</option>
+      <option value="kit">Kit de limpieza</option>
+    </select> <br><br>
+
+    <input type="checkbox" id="terminos" name="terminos">
+    <label for="terminos">Acepto los términos del pedido</label><br><br>
+
+    <label for="comentarios">Comentarios o instrucciones especiales:</label><br>
+    <textarea id="comentarios" name="comentarios" placeholder="Indica detalles adicionales sobre tu pedido..."></textarea><br><br>
+
+    <input type="submit" value="Enviar pedido">
 
 </body>
 </html>
