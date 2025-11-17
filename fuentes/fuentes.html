@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuentes con CSS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lacquer&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <style>
+
+        @font-face{
+            font-family: Lacquer;
+            src: url(Lacquer-Regular.ttf);
+        }
+
+        .div1{
+            font-family: Lacquer;
+        }
+
+        .div2{
+            font-family: "Caveat", cursive;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1>1. Fuente segura del sistema</h1>
+    <p>Este texto utiliza una fuente segura instalada en la mayoría
+        de dispositivos (Georgia en este caso), lo que garantiza su disponibilidad sin necesidad de descargarse.
+    </p>
+    </div>
+    
+    <div class="div1">
+        <h1>2. Fuente descargada mediante @font-face</h1>
+    <p>Este párrafo utiliza una fuente almacenada localmente en el proyecto
+        e incorporada con la regla @font-face
+    </p>
+    </div>
+
+    <div class="div2">
+        <h1>3. Fuente enlazada desde google fonts</h1>
+        <p>Este texto emplea la fuente "" cargada desde google
+            fonts a través de un enlace en la cabecera</p>
+    </div>
+
+</body>
+</html>
