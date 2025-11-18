@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero Ajedréz</title>
+
+    <style>
+        .tablero{
+            width: 400px;
+            height: 400px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px; /* o el tamaño que quieras del tablero */
+            height: 400px;
+            margin: auto; /* asi queda centrado */
+        }
+
+        table td {
+        width: 12.5%;  /* 100% / 8 columnas */
+        height: 12.5%; /* 100% / 8 filas  */
+        background-color: bisque; /*En principio todas las celdas son blancas*/
+        }
+
+        table.horizontal tr:nth-child(even) td{
+            background: brown;
+        }
+
+        table.vertical td:nth-child(odd){
+            background: brown;
+        }
+
+        table.tablero tr:nth-child(odd) td:nth-child(even), table.tablero tr:nth-child(even) td:nth-child(odd){
+            background: brown;
+
+        }
+
+        .div1{
+            justify-content: center;
+            border: 20px solid #265D7D;
+        }
+
+        .td1{
+            background-color: #7AB4D6;
+            border-top: 5px solid #265D7D;
+            border-left: 5px solid #265D7D;
+        }
+
+        .td2{
+            background-color: white;
+            border-top: 5px solid #265D7D;
+        }
+
+        .td3{
+            background-color: #7AB4D6;
+            border-top: 5px solid #265D7D;
+        }
+
+        .td4{
+            background-color: white;
+            border-top: 5px solid #265D7D;
+            border-left: 5px solid #265D7D;
+        }
+
+        .td5{
+            background-color: white;
+            border-left: 5px solid #265D7D;
+        }
+
+        .td6{
+            background-color: #7AB4D6;
+        }
+
+        .td7{
+            background-color: white;
+        }
+
+        .td8{
+            background-color: #7AB4D6;
+            border-right: 5px solid #265D7D;
+        }
+
+        .td9{
+            background-color: white;
+            border-left: #265D7D;
+        }
+
+        .td10{
+            background-color: #7AB4D6;
+            border-right: #265D7D;
+        }
+
+        .td11{
+            background-color: #7AB4D6;
+            border-left: 5px solid #265D7D;
+            border-bottom: 5px solid #265D7D;
+        }
+
+        .td12{
+            background-color: white;
+            border-bottom: #265D7D;
+        }
+
+        .td13{
+            background-color: #7AB4D6;
+            border: 5px solid #265D7D;
+        }
+
+        .td14{
+            background-color: white;
+            border-bottom: 5px solid #265D7D;
+            border-right: 5px solid #265D7D;
+        }
+
+        footer{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="tablero div1">
+
+        <table>
+
+            <tr>
+                <td>
+                    <div class="td1"></div>
+                </td>
+                <td>
+                    <div class="td2"></div>
+                </td>
+                <td>
+                    <div class="td3"></div>
+                </td>
+                <td>
+                    <div class="td2"></div>
+                </td>
+                <td>
+                    <div class="td3"></div>
+                </td>
+                <td>
+                    <div class="td2"></div>
+                </td>
+                <td>
+                    <div class="td3"></div>
+                </td>
+                <td>
+                    <div class="td2"></div>
+                </td>
+                <td>
+                    <div class="td4"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="td5"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td8"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="td9"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td10"></div>
+                </td>
+            </tr>
+
+            <tr>
+                 <td>
+                    <div class="td5"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td8"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="td9"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td10"></div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <div class="td5"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td8"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="td9"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td6"></div>
+                </td>
+                <td>
+                    <div class="td7"></div>
+                </td>
+                <td>
+                    <div class="td10"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="td11"></div>
+                </td>
+                <td>
+                    <div class="td12"></div>
+                </td>
+                <td>
+                    <div class="td13"></div>
+                </td>
+                <td>
+                    <div class="td12"></div>
+                </td>
+                <td>
+                    <div class="td13"></div>
+                </td>
+                <td>
+                    <div class="td12"></div>
+                </td>
+                <td>
+                    <div class="td13"></div>
+                </td>
+                <td>
+                    <div class="td12"></div>
+                </td>
+                <td>
+                    <div class="td14"></div>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <footer>
+        <img src="../github.png" alt="github">
+    </footer>
+
+</body>
+</html>
