@@ -8,9 +8,9 @@
    
   table {
     border-collapse: collapse;
-    width: 600px; /* o el tamaño que quieras del tablero */
+    width: 600px;
     height: 600px;
-    margin: auto; /* asi queda centrado */
+    margin: auto;
   }
  
   img{
@@ -20,24 +20,21 @@
   }
 
   table td {
-   width: 12.5%;  /* 100% / 8 columnas */
-   height: 12.5%; /* 100% / 8 filas  */
-   background-color: white; /*En principio todas las celdas son blancas*/
+   width: 12.5%;
+   height: 12.5%;
+   background-color: white;
   }
 
-  /*En la primera tabla los elementos <td> que son hijos de los elementos <tr> pares tienen el fondo oscuro */
   table.horizontal tr:nth-child(even) td
   {
     background: #7AB4D6;
   }
 
-/*En la segunda tabla los elementos <td> pares que son hijos de los elementos <tr> tienen el fondo oscuro */
   table.vertical td:nth-child(odd)
   {
     background: #7AB4D6;
   }
 
-  /*Combinando adecuadamente estas dos ideas sale el tablero*/
   table.tablero tr:nth-child(odd) td:nth-child(even), table.tablero tr:nth-child(even) td:nth-child(odd){
     background: #7AB4D6;
   }
@@ -90,14 +87,24 @@
 
     <table class="tablero">
     <tr>
-        <td class="td1"><img src="./imagen.png" alt=""></td>
-        <td class="td2"></td>
-        <td class="td2"></td>
-        <td class="td2"></td>
-        <td class="td2"></td>
-        <td class="td2"></td>
-        <td class="td2"></td>
-        <td class="td3"></td>
+        <td class="td1"><img src="./img/torre_negra.jpg" alt="torre_negra"></td>
+        <td class="td2"><img src="./img/caballo_negra.jpg" alt="caballo_negra"></td>
+        <td class="td2"><img src="./img/alfiles_negra.jpg" alt="alfiles_negra"></td>
+        <td class="td2"><img src="./img/rey_negro.jpg" alt="rey_negro"></td>
+        <td class="td2"><img src="./img/dama_ajedrez.jpg" alt="dama_ajedrez"></td>
+        <td class="td2"><img src="./img/alfiles_negra.jpg" alt="alfiles_negra"></td>
+        <td class="td2"><img src="./img/caballo_negra.jpg" alt="caballo_negra"></td>
+        <td class="td3"><img src="./img/torre_negra.jpg" alt="torre_negra"></td>
+    </tr>
+    <tr>
+        <td class="td4"><img src="./img/peon_negra.jpg" alt="peon_negra"></td>
+        <td><img src="./img/peon_negra.jpg" alt="peon_negra"></td>
+        <td><img src="./img/peon_negra.jpg" alt="peon_negra"></td>
+        <td><img src="./img/peon_negra.jpg" alt="peon_negra"></td>
+        <td><img src="./img/peon_negra.jpg" alt="peon_negra"></td>
+        <td><img src="./img/peon_negra.jpg" alt="peon_negra"></td>
+        <td><img src="./img/peon_negra.jpg" alt="peon_negra"></td>
+        <td class="td5"><img src="./img/peon_negra.jpg" alt="peon_negra"></td>
     </tr>
     <tr>
         <td class="td4"></td>
@@ -140,34 +147,24 @@
         <td class="td5"></td>
     </tr>
     <tr>
-        <td class="td4"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="td5"></td>
+        <td class="td4"><img src="./img/peon_blanca.jpg" alt="peon_blanca"></td>
+        <td><img src="./img/peon_blanca.jpg" alt="peon_blanca"></td>
+        <td><img src="./img/peon_blanca.jpg" alt="peon_blanca"></td>
+        <td><img src="./img/peon_blanca.jpg" alt="peon_blanca"></td>
+        <td><img src="./img/peon_blanca.jpg" alt="peon_blanca"></td>
+        <td><img src="./img/peon_blanca.jpg" alt="peon_blanca"></td>
+        <td><img src="./img/peon_blanca.jpg" alt="peon_blanca"></td>
+        <td class="td5"><img src="./img/peon_blanca.jpg" alt="peon_blanca"></td>
     </tr>
     <tr>
-        <td class="td4"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="td5"></td>
-    </tr>
-    <tr>
-        <td class="td6"></td>
-        <td class="td7"></td>
-        <td class="td7"></td>
-        <td class="td7"></td>
-        <td class="td7"></td>
-        <td class="td7"></td>
-        <td class="td7"></td>
-        <td class="td8"></td>
+        <td class="td6"><img src="./img/torre_blanca.jpg" alt="torre_blanca"></td>
+        <td class="td7"><img src="./img/caballo_blanca.jpg" alt=""></td>
+        <td class="td7"><img src="./img/alfiles_blanca.jpg" alt=""></td>
+        <td class="td7"><img src="./img/rey_blanco.jpg" alt=""></td>
+        <td class="td7"><img src="./img/dama_blanca.jpg" alt=""></td>
+        <td class="td7"><img src="./img/alfiles_blanca.jpg" alt=""></td>
+        <td class="td7"><img src="./img/caballo_blanca.jpg" alt=""></td>
+        <td class="td8"><img src="./img/torre_blanca.jpg" alt=""></td>
     </tr>
   </table>
    
