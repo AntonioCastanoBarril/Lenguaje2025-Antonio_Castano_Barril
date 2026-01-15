@@ -1,0 +1,69 @@
+*{
+    height: 100%;
+}
+
+div.azul{
+    background-color: blue;
+    width: 100%;
+    height: 20%;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+div.sticky{
+    background-color: grey;
+    width: 100%;
+    height: 10%;
+}
+
+#cajasticky{
+    position: sticky;
+
+    top: 1px;
+}
+
+div.rojo{
+    background-color: red;
+    width: 20%;
+    height: 70%;
+    float: left;
+}
+
+div.verde{
+    background-color: green;
+    width: 40%;
+    height: 70%;
+    float: left;
+}
+
+div.amarillo{
+    background-color: yellow;
+    width: 40%;
+    height: 70%;
+    float: right;
+}
+
+div.lila{
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#cajafixed{
+    position: fixed;
+    top: 85%;
+    left: 90%;
+}
+
+div.naranja{
+    background-color: orange;
+    width: 100%;
+    height: 40%;
+    clear: both;
+}
