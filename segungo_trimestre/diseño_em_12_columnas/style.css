@@ -1,0 +1,21 @@
+body{
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black; 
+    border-collapse: collapse;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+}
+
+#color{
+    background-color: cyan;
+}
