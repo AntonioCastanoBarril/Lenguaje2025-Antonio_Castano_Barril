@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<menuRestaurante>
+
+    <entrantes>
+        <texto>Patatas brabas</texto>
+        <texto>Aceitunas</texto>
+    </entrantes>
+
+    <carne>
+        <texto>Solomillo a la pimienta</texto>
+        <texto>Secreto</texto>
+        <texto>Lagrimitas de pollo</texto>
+        <texto>Flamenquín</texto>
+    </carne>
+
+    <pescado>
+        <texto>Boquerones</texto>
+        <texto>Calamares</texto>
+    </pescado>
+
+
+</menuRestaurante>  

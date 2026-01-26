@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<datosTarjetaCredito>
+
+    <nombreTitular>
+        Jose Maria 
+        <numeroTarjeta>
+            1231456987412547
+            <fechaCaducidad>28/09</fechaCaducidad>
+            <codigoSeguridad>452</codigoSeguridad>
+        </numeroTarjeta>
+
+    </nombreTitular>
+
+    <nombreTitular>
+        Pepe Lopez
+        <numeroTarjeta>
+            9513571598524562
+            <fechaCaducidad>28/10</fechaCaducidad>
+            <codigoSeguridad>828</codigoSeguridad>
+        </numeroTarjeta>
+
+    </nombreTitular>
+
+    <nombreTitular>
+        Jose Juan
+        <numeroTarjeta>
+            8524569517532586
+            <fechaCaducidad>02/07</fechaCaducidad>
+            <codigoSeguridad>646</codigoSeguridad>
+        </numeroTarjeta>
+
+    </nombreTitular>
+
+</datosTarjetaCredito>

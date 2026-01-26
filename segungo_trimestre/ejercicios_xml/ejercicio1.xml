@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="ejercicio1.css"?>
+
+
+<catalogo>
+
+    <cabecera>
+        <tituloGrande>CATALOGO DE LIBROS</tituloGrande>
+    </cabecera>
+
+    <libro>
+        <titulo>Los Futbolísimos</titulo>
+
+        <texto>trata sobre las aventuras de un grupo 
+            de amigos del Soto Alto Fútbol Club, 
+            un equipo infantil que mezcla partidos de 
+            fútbol con misterios emocionantes que deben 
+            resolver juntos, promoviendo valores 
+            como la amistad, el trabajo en equipo y la 
+            tolerancia, y convirtiéndose en un éxito 
+            entre los lectores jóvenes por su humor y 
+            combinaciones de deporte e intriga</texto>
+
+    </libro>
+
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+
+        <texto>Relata la historia de Alonso Quijano, 
+            un hidalgo pobre que enloquece leyendo 
+            libros de caballerías, decidiendo convertirse 
+            en caballero andante para defender la justicia 
+            y su amor, Dulcinea del Toboso.</texto>
+
+    </libro>
+
+    <libro>
+        <titulo>El Principito</titulo>
+        <texto>Es un cuento poético que viene acompañado 
+            de ilustraciones hechas con acuarelas por el 
+            mismo Saint-Exupéry.</texto>
+
+    </libro>
+
+    <libro>
+        <titulo>El señor de los Anillos</titulo>
+        <texto>Un hobbit debe destruir el Anillo Único en la 
+            Grieta del Destino, atravesando la Tierra Media con 
+            una compañía mientras son perseguidos por Sauron.</texto>
+
+    </libro>
+</catalogo>
+ 

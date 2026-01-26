@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<agendaContactos>
+
+<contacto>
+    Antonio Jose
+    <numeroTelefono>677 44 89 41</numeroTelefono>
+</contacto>
+
+<contacto>
+    Lionel Messi
+    <numeroTelefono>678 69 02 41</numeroTelefono>
+</contacto>
+
+<contacto>
+    Jose Luis
+    <numeroTelefono>788 49 89 05</numeroTelefono>
+</contacto>
+
+<contacto>
+    Maria Luisa
+    <numeroTelefono>777 11 90 41</numeroTelefono>
+</contacto>
+
+<contacto>
+    Jorgue Carrasco
+    <numeroTelefono>689 11 21 35</numeroTelefono>
+</contacto>
+
+<contacto>
+    Daniel Carvajal
+    <numeroTelefono>746 91 46 41</numeroTelefono>
+</contacto>
+
+<contacto>
+    Luis Suarez
+    <numeroTelefono>791 63 46 52</numeroTelefono>
+</contacto>
+
+</agendaContactos>

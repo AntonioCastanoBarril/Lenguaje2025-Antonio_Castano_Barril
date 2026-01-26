@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Antonio Castano" content="">
     <style>
+
         body {
             margin: 0;
-            padding: 0;
             font-family: Arial, sans-serif;
-            transition: background-color 0.3s ease;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            transition: 0.3s ease;
         }
 
         header{
@@ -16,31 +23,33 @@
             color: white;
         }
 
-        .imagen-centro {
-            width: 250px;
-            height: 250px;
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
-            border-radius: 12px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.4);
+        .contenedor {
+            text-align: center;
         }
 
-        /* Estilo por defecto */
-        body {
-            background-color: #f0f0f0;
+        .contenedor img {
+            width: 300px;
+            max-width: 80%;
+            transition: all 0.5s ease;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 1px 1px 5px black;
         }
 
         /* Estilo para pantallas pequeñas */
         @media screen and (max-width: 600px) {
             body {
                 background-image: url(./img/pepe.jpg);
-                background-size: cover;
             }
 
-            .imagen-centro{
-                background-image: url(./img/pepe2.jpg);
-                background-size: cover;
+            .contenedor img {
+                content: url(./img/pepe2.jpg);
+            }
+
+            h1::after {
+                content: " (Pantalla pequeña)";
             }
         }
 
@@ -48,12 +57,14 @@
         @media screen and (min-width: 601px) and (max-width: 1200px) {
             body {
                 background-image: url(./img/lamine.jpg);
-                background-size: cover;
             }
 
-            .imagen-centro{
-                background-image: url(./img/lamine2.jpg);
-                background-size: cover;
+            .contenedor img {
+                content: url(./img/lamine2.jpg);
+            }
+
+            h1::after {
+                content: " (Pantalla mediana)";
             }
         }
 
@@ -63,25 +74,24 @@
                 background-image: url(./img/messi1.jpg);
             }
 
-            .imagen-centro{
-                background-image: url(./img/messi2.jpg);
-                background-size: cover;
+            .contenedor img {
+                content: url(./img/messi2.jpg);
             }
 
+            h1::after {
+                content: " (Pantalla grande)";
+            }
         }
     </style>
     <title>Ejemplo de Cambio de Color de Fondo con @media</title>
 </head>
 <body>
     <header>
-         <h1>Bienvenido a mi página</h1>
-    <p>Esta es una página de ejemplo con cambios de fondo de color en función del tamaño de pantalla.</p>
+        <h1>Bienvenido a mi página</h1>
+        <p>Esta es una página de ejemplo con cambios de fondo de color en función del tamaño de pantalla.</p>
     </header>
-   
-
-
-    <div class="imagen-centro"></div>
-
-
+    <div class="contenedor">
+        <img src="" alt="Imagen central">
+    </div>
 </body>
 </html>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<datosDni>
+
+
+    <numeroDni>
+        78945623R
+            <nombrePersona>Fernando</nombrePersona>
+            <apellidos>Carmona Lopez</apellidos>
+            <sexo>hombre</sexo>
+            <nacionalidad>Española</nacionalidad>
+            <fechaVencimientoDni>29/8/2030</fechaVencimientoDni>
+            <fecghaNac>25/02/2005</fecghaNac>
+            <nombreDeLosPadres>
+                <nombrePadre>
+                    Fernando
+                    <apellidosPadre>Carmona Figueras</apellidosPadre>
+                </nombrePadre>
+                <nombreMadre>
+                    Juana
+                    <apellidosMadre>Lopez Marquez</apellidosMadre>
+                </nombreMadre>
+            </nombreDeLosPadres>
+            <numeroCan>123456</numeroCan>
+    </numeroDni>
+
+    <numeroDni>
+        45215698A
+            <nombrePersona>Jose</nombrePersona>
+            <apellidos>Arroyo Lopez</apellidos>
+            <sexo>hombre</sexo>
+            <nacionalidad>Española</nacionalidad>
+            <fechaVencimientoDni>29/8/2030</fechaVencimientoDni>
+            <fecghaNac>20/07/2009</fecghaNac>
+            <nombreDeLosPadres>
+                <nombrePadre>
+                    Jose Luis
+                    <apellidosPadre>Arroyo Alcalde</apellidosPadre>
+                </nombrePadre>
+                <nombreMadre>
+                    Pepa
+                    <apellidosMadre>Lopez Marquez</apellidosMadre>
+                </nombreMadre>
+            </nombreDeLosPadres>
+            <numeroCan>123456</numeroCan>
+    </numeroDni>
+
+    <numeroDni>
+        1234571H
+            <nombrePersona>Marcos</nombrePersona>
+            <apellidos>Lopez Trujillo</apellidos>
+            <sexo>hombre</sexo>
+            <nacionalidad>Española</nacionalidad>
+            <fechaVencimientoDni>5/04/2032</fechaVencimientoDni>
+            <fecghaNac>14/06/2001</fecghaNac>
+            <nombreDeLosPadres>
+                <nombrePadre>
+                    Jose
+                    <apellidosPadre>Lopez Baena</apellidosPadre>
+                </nombrePadre>
+                <nombreMadre>
+                    Josefa
+                    <apellidosMadre>Trujillo Marquez</apellidosMadre>
+                </nombreMadre>
+            </nombreDeLosPadres>
+            <numeroCan>123456</numeroCan>
+    </numeroDni>
+
+
+    
+
+</datosDni>
