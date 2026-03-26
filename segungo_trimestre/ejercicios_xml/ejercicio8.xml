@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumno>
+    <nombre>Carlos Gómez</nombre>
+    <curso>DAW</curso>
+
+    <asignaturas>
+        <asignatura>
+            <nombre>Lenguaje de Marcas</nombre>
+            <trimestre>1</trimestre>
+            <nota>8</nota>
+        </asignatura>
+
+        <asignatura>
+            <nombre>Bases de Datos</nombre>
+            <trimestre>1</trimestre>
+            <nota>7</nota>
+        </asignatura>
+
+        <asignatura>
+            <nombre>Programación</nombre>
+            <trimestre>2</trimestre>
+            <nota>9</nota>
+        </asignatura>
+    </asignaturas>
+</alumno>

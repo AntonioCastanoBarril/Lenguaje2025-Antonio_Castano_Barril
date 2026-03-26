@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuracion>
+    <aplicacion>
+        <nombre>MiApp</nombre>
+        <version>1.0</version>
+        <autor>Juan Pérez</autor>
+    </aplicacion>
+
+    <baseDeDatos>
+        <host>localhost</host>
+        <puerto>3306</puerto>
+        <usuario>root</usuario>
+        <contrasena>1234</contrasena>
+        <nombreBD>miapp_db</nombreBD>
+    </baseDeDatos>
+
+    <usuario>
+        <tema>oscuro</tema>
+        <idioma>es</idioma>
+        <preferencias>
+            <notificaciones>activadas</notificaciones>
+            <guardarSesion>si</guardarSesion>
+        </preferencias>
+    </usuario>
+
+    <parametros>
+        <modoDebug>false</modoDebug>
+        <tiempoEspera>30</tiempoEspera>
+        <maxUsuarios>100</maxUsuarios>
+    </parametros>
+</configuracion>

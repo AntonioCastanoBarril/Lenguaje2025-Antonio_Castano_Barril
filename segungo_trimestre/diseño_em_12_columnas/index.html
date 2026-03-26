@@ -1,37 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Antonio Castaño Barril">
-    <link rel="stylesheet" href="./style.css">
-    <title>Diseño en 12 columnas</title>
+  <meta charset="UTF-8">
+  <title>Grid 12 columnas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Diseño en 12 columnas.</h1>
-    </header>
 
-    /* Esto se tiene que hacer con grid */
+  <div class="container">
 
-   <div class="grid-container">
+    <h1>Diseño en 12 columnas</h1>
+    <p class="desc">
+      Sistema de grid de 12 columnas usado en CSS. Permite dividir el espacio en partes iguales
+      (mitad, tercios, cuartos, sextos, etc).
+    </p>
 
-    <div class="grid-item">1</div>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <div class="grid-item">4</div>
-    <div class="grid-item">5</div>
-    <div class="grid-item">6</div>
-    <div class="grid-item">7</div>
-    <div class="grid-item">8</div>
-    <div class="grid-item">9</div>
-    <div class="grid-item">10</div>
-    <div class="grid-item">11</div>
-    <div class="grid-item">12</div>
+    <div class="grid numbers">
+      <div>1</div><div>2</div><div>3</div><div>4</div>
+      <div>5</div><div>6</div><div>7</div><div>8</div>
+      <div>9</div><div>10</div><div>11</div><div>12</div>
+    </div>
 
-   </div>
+    <div class="grid">
+      <div class="box span-6">Mitad</div>
+      <div class="box span-6">Mitad</div>
+    </div>
 
-    <footer><img src="../img/github.png" alt=""></footer>
+    <div class="grid">
+      <div class="box span-4">Tercio</div>
+      <div class="box span-4">Tercio</div>
+      <div class="box span-4">Tercio</div>
+    </div>
+
+    <div class="grid">
+      <div class="box span-3">Cuarto</div>
+      <div class="box span-3">Cuarto</div>
+      <div class="box span-3">Cuarto</div>
+      <div class="box span-3">Cuarto</div>
+    </div>
+
+    <div class="grid">
+      <div class="box span-2">Sexto</div>
+      <div class="box span-2">Sexto</div>
+      <div class="box span-2">Sexto</div>
+      <div class="box span-2">Sexto</div>
+      <div class="box span-2">Sexto</div>
+      <div class="box span-2">Sexto</div>
+    </div>
+
+    <div class="grid lower-row">
+      <div class="box span-2 start-3 empty-text"></div>
+      <div class="box span-2 start-6 empty-text"></div>
+      <div class="box span-2 start-9 empty-text"></div>
+    </div>
+
+    <div class="grid lower-row">
+      <div class="box span-2 start-2 empty-text"></div>
+      <div class="box span-4 start-5 empty-text"></div>
+      <div class="box span-2 start-9 empty-text"></div>
+    </div>
+
+    <div class="grid">
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+      <div class="box span-1 empty-text"></div>
+    </div>
+
+
+  </div>
 
 </body>
 </html>

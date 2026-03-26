@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Resumen XPath</title>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+  <header>
+    <h1>Resumen de XPath</h1>
+    <p>XPath es un lenguaje que permite acceder y buscar información dentro de documentos XML.</p>
+  </header>
+
+  <main>
+
+    <h2>¿Qué es XPath?</h2>
+    <p>
+      XPath es un lenguaje que se utiliza para navegar por un documento XML y seleccionar nodos.
+      Funciona como una ruta (path), similar a las carpetas de un ordenador.
+    </p>
+
+    <h2>¿Para qué sirve?</h2>
+    <ul>
+      <li>Acceder a nodos de XML</li>
+      <li>Extraer datos</li>
+      <li>Visualizar elementos</li>
+      <li>Hacer cálculos</li>
+    </ul>
+
+    <h2>Tipos de nodos</h2>
+    <ul>
+      <li>Raíz ( / )</li>
+      <li>Elementos</li>
+      <li>Atributos</li>
+      <li>Texto</li>
+    </ul>
+
+    <h2>Sintaxis básica</h2>
+    <div class="caja">
+      <p><code>/concesionario/coche</code> → selecciona los coches</p>
+      <p><code>//coche</code> → selecciona todos los coches</p>
+      <p><code>//coche[2]</code> → segundo coche</p>
+      <p><code>//coche/@matricula</code> → atributo matrícula</p>
+    </div>
+
+    <h2>Predicados</h2>
+    <p>Se usan para filtrar resultados:</p>
+    <div class="caja">
+      <p><code>//coche[precio > 20000]</code></p>
+      <p><code>//coche[color="Azul"]</code></p>
+    </div>
+
+    <h2>Funciones</h2>
+    <ul>
+      <li><code>text()</code> → obtiene el texto</li>
+      <li><code>last()</code> → último elemento</li>
+      <li><code>count()</code> → contar elementos</li>
+    </ul>
+
+    <h2>Resumen</h2>
+    <p>
+      XPath es muy útil para trabajar con XML porque permite buscar información de forma rápida.
+      Se usa mucho junto con XSLT y otras tecnologías.
+    </p>
+
+
+  </main>
+
+  <footer>
+    <p>Nombre: Antonio Castaño</p>
+    <p>Trabajo de clase - Lenguajes de marcas</p>
+  </footer>
+
+</div>
+
+</body>
+</html>

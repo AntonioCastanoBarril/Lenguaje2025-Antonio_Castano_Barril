@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estacionMeteorologica>
+    <ubicacion>Madrid</ubicacion>
+    <fecha>2025-02-10</fecha>
+    <hora>12:30</hora>
+    <temperatura>18</temperatura>
+    <humedad>65</humedad>
+    <presion>1013</presion>
+    <viento>12 km/h</viento>
+    <lluvia>no</lluvia>
+</estacionMeteorologica>

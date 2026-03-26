@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reservaHotel>
+    <cliente>
+        <nombre>Laura Martínez</nombre>
+        <dni>12345678A</dni>
+        <telefono>666555444</telefono>
+    </cliente>
+
+    <habitacion>
+        <numero>203</numero>
+        <tipo>doble</tipo>
+        <precioNoche>85</precioNoche>
+    </habitacion>
+
+    <estancia>
+        <fechaEntrada>2025-03-15</fechaEntrada>
+        <fechaSalida>2025-03-18</fechaSalida>
+        <noches>3</noches>
+    </estancia>
+
+    <pago>
+        <metodo>tarjeta</metodo>
+        <total>255</total>
+    </pago>
+</reservaHotel>

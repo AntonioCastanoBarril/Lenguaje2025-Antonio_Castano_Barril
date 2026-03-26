@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Resumen de XML Schema</title>
+</head>
+<body>
+  <div class="contenedor">
+
+    <header>
+      <h1>Resumen de XML Schema</h1>
+      <p>La validación XSD sirve para definir las reglas que debe cumplir un archivo XML.</p>
+    </header>
+
+    <main>
+      <h2>¿Qué es XML Schema?</h2>
+      <p>
+        XML Schema, también llamado XSD, es un lenguaje que permite definir la estructura y las reglas de un documento XML.
+        Sirve para indicar qué elementos y atributos puede tener, en qué orden van y qué tipo de datos usan.
+      </p>
+
+      <h2>Características principales</h2>
+      <ul>
+        <li>Es un archivo XML.</li>
+        <li>Usa sintaxis XML, a diferencia de DTD.</li>
+        <li>Su extensión es <strong>.xsd</strong>.</li>
+        <li>Permite validar documentos XML.</li>
+      </ul>
+
+      <h2>Qué permite definir un XSD</h2>
+      <ul>
+        <li>Los elementos y atributos que pueden aparecer.</li>
+        <li>El número y orden de los elementos.</li>
+        <li>Los tipos de datos.</li>
+        <li>Valores obligatorios, opcionales o por defecto.</li>
+      </ul>
+
+      <h2>Tipos de elementos</h2>
+      <div class="bloque">
+        <p><strong>Elementos simples:</strong> contienen solo texto o un dato simple, como un nombre o un número.</p>
+        <p><strong>Elementos complejos:</strong> contienen otros elementos o atributos.</p>
+      </div>
+
+      <h2>Tipos de datos</h2>
+      <p>En XSD se pueden usar tipos ya definidos, por ejemplo:</p>
+      <ul>
+        <li><code>xs:string</code></li>
+        <li><code>xs:integer</code></li>
+        <li><code>xs:decimal</code></li>
+        <li><code>xs:boolean</code></li>
+        <li><code>xs:date</code></li>
+      </ul>
+
+      <h2>Restricciones</h2>
+      <p>
+        XSD también permite poner restricciones a los datos. Por ejemplo, limitar un número entre 1 y 10,
+        fijar una longitud exacta o permitir solo ciertos valores.
+      </p>
+      <ul>
+        <li><code>minInclusive</code> y <code>maxInclusive</code></li>
+        <li><code>length</code>, <code>minLength</code>, <code>maxLength</code></li>
+        <li><code>enumeration</code></li>
+        <li><code>pattern</code></li>
+      </ul>
+
+      <h2>Atributos</h2>
+      <p>
+        Los atributos se definen con <code>&lt;xs:attribute&gt;</code> y pueden ser obligatorios, opcionales
+        o tener valores fijos.
+      </p>
+
+      <h2>Asociación entre XML y XSD</h2>
+      <p>Para validar un XML con su esquema, se enlaza así:</p>
+      <div class="bloque">
+        <code>
+          xsi:noNamespaceSchemaLocation="archivo.xsd"
+        </code>
+      </div>
+
+      <h2>Documentación del XSD</h2>
+      <p>
+        Un esquema XSD puede incluir documentación con <code>xs:annotation</code>,
+        <code>xs:documentation</code> y <code>xs:appinfo</code>.
+      </p>
+
+      <h2>Resumen final</h2>
+      <p>
+        XSD es importante porque ayuda a comprobar que un XML esté bien construido y cumpla unas reglas.
+        Gracias a esto, la información se puede compartir entre programas de forma más segura y ordenada.
+      </p>
+
+    </main>
+
+    <footer>
+      <p>Nombre: Antonio Castaño</p>
+      <p>Trabajo de clase - Validación XML Schema</p>
+    </footer>
+
+  </div>
+</body>
+</html>

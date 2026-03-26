@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <productos>
+        <producto>
+            <nombre>Portátil HP</nombre>
+            <categoria>Informática</categoria>
+            <precio>799.99</precio>
+            <stock>12</stock>
+            <descripcion>Portátil de 15 pulgadas con 8 GB de RAM.</descripcion>
+        </producto>
+
+        <producto>
+            <nombre>Ratón inalámbrico</nombre>
+            <categoria>Accesorios</categoria>
+            <precio>19.99</precio>
+            <stock>30</stock>
+            <descripcion>Ratón óptico con conexión USB.</descripcion>
+        </producto>
+
+        <producto>
+            <nombre>Teclado mecánico</nombre>
+            <categoria>Accesorios</categoria>
+            <precio>49.99</precio>
+            <stock>15</stock>
+            <descripcion>Teclado con luces LED y switches azules.</descripcion>
+        </producto>
+    </productos>
+</tienda>

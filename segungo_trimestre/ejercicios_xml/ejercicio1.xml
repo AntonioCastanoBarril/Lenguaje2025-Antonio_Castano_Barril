@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="ejercicio1.css"?>
 
-
+<?xml-model href="ejercicio1.xsd"?>
 <catalogo>
 
     <cabecera>

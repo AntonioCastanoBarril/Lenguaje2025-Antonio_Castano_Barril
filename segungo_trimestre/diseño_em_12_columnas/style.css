@@ -1,27 +1,89 @@
-body{
-    width: 1000px;
-    margin: auto;
-    align-items: center;
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 40px;
 }
 
-header{
-    text-align: center;
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  position: relative;
 }
 
-#grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-columns: 50% auto auto;
-        grid-template-columns: 50% 50% 50%;
-        grid-template-columns: 40% 40% 20%;  
-        background-color: #19738f9a;
-        padding: 10px;
-      }
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-#grid-item {
-        background-color: rgba(101, 194, 231, 0.8);
-        border: 1px solid rgba(211, 224, 230, 0.8);
-        padding: 20px;
-        font-size: 3em;
-        text-align: center;
-      }      
+.desc {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0;
+  margin-bottom: 0;
+}
+
+.numbers {
+  margin-bottom: 10px;
+}
+
+.numbers div {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 0 15px;
+}
+
+.box {
+  background: #9bb9d6;
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1.5px solid white;
+  box-sizing: border-box;
+}
+
+.empty-text {
+  color: transparent;
+}
+
+.span-12 { grid-column: span 12; }
+.span-6  { grid-column: span 6; }
+.span-4  { grid-column: span 4; }
+.span-3  { grid-column: span 3; }
+.span-2  { grid-column: span 2; }
+.span-1  { grid-column: span 1; }
+
+.start-2 { grid-column-start: 2; }
+.start-3 { grid-column-start: 3; }
+.start-5 { grid-column-start: 5; }
+.start-6 { grid-column-start: 6; }
+.start-9 { grid-column-start: 9; }
+
+.lower-row .box {
+  min-height: 82px;
+}
+
+.side-title {
+  position: absolute;
+  right: -180px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 58px;
+  color: #0d3b53;
+  margin: 0;
+}

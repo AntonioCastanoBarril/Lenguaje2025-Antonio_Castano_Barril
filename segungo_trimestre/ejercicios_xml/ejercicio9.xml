@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pokemon>
+    <nombre>PokeDAW</nombre>
+    <numeroPokedex>101</numeroPokedex>
+    <imagen>pokedaw.png</imagen>
+    <descripcion>Pokémon creado para practicar XML en clase.</descripcion>
+    <tipo>planta</tipo>
+    <genero>masculino</genero>
+
+    <estado>
+        <habilidades>Placaje, Hoja afilada</habilidades>
+        <destreza>8</destreza>
+        <nivel>15</nivel>
+        <fuerza>75</fuerza>
+        <faseEvolucion>2</faseEvolucion>
+        <puntosVida>90</puntosVida>
+    </estado>
+</pokemon>
